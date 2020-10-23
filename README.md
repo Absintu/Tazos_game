@@ -6,7 +6,7 @@ then open the terminal and install yarn with the command:<br>
 
 ### npm install -g yarn git
 ### cd your_dev_apps_dir
-### git --clone https://github.com/Absintu/Tazos_game/
+### git clone https://github.com/Absintu/Tazos_game/
 
 ******** Optional (if you just want to test the frontend skip this part)********<br>
 If you want to test, deploy contracts or interact with them, first install truffle:<br>
