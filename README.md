@@ -1,7 +1,7 @@
 This project is still a boilerplate to create some type of generic app on react that works with ERC721 Tokens (aka Non-Fungible Tokens)<br>
 Contracts inherited from @openzeppelin<br>
 
-If you don't have npm installed please install NodeJS 12 from https://nodejs.org/en/<br>
+### If you don't have npm installed please install NodeJS 12 from https://nodejs.org/en/<br>
 then open the terminal and install yarn with the command:<br>
 
 ### npm install -g yarn git
@@ -9,7 +9,7 @@ then open the terminal and install yarn with the command:<br>
 ### git clone https://github.com/Absintu/Tazos_game/
 ### cd Tazos_game
 
-******** Optional (if you just want to test the frontend skip this part)********<br>
+# *** (Optional) If you just want to test the frontend skip this part<br>
 If you want to test, deploy contracts or interact with them, first install truffle:<br>
 ### yarn
 ### npm install -g truffle
@@ -24,7 +24,7 @@ Et voilá: now you should have your contracts deployed on yout local blockchain 
 *************************************************************************************
 
 
-********************* To test the front-end: *******************************************
+# To test the front-end:
 
 ## Available Scripts
 
