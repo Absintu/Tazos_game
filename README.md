@@ -5,7 +5,7 @@ If you don't have npm installed please install NodeJS 12 from https://nodejs.org
 then open the terminal and install yarn with the command:<br>
 
 ### npm install -g yarn git
-### cd <your apps dir>
+### cd your_dev_apps_dir
 ### git --clone https://github.com/Absintu/Tazos_game/
 
 ******** Optional (if you just want to test the frontend skip this part)********<br>
