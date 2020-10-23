@@ -11,6 +11,7 @@ then open the terminal and install yarn with the command:<br>
 
 ******** Optional (if you just want to test the frontend skip this part)********<br>
 If you want to test, deploy contracts or interact with them, first install truffle:<br>
+### yarn
 ### npm install -g truffle
 ### truffle compile
 Install ganache from their website: https://www.trufflesuite.com/ganache and start the client
