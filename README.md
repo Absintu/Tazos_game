@@ -1,4 +1,4 @@
-This project is still a boilertemplate to create some type of generic app on react that works with ERC721 Tokens (aka Non-Fungible Tokens)<br>
+This project is still a boilerplate to create some type of generic app on react that works with ERC721 Tokens (aka Non-Fungible Tokens)<br>
 Contracts inherited from @openzeppelin<br>
 
 If you don't have npm installed please install NodeJS 12 from https://nodejs.org/en/<br>
