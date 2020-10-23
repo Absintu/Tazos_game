@@ -25,22 +25,22 @@ contract('Tazo', accounts => {
         assert.equal(symbol, 'TZX')
     })
 
-    let result
     it('mints tokens', async () => {
+        let result
         await tazo.mint(accounts[0], 'https://www.token-uri.com/nft')
         result = await tazo.totalSupply();
         assert.equal(result.toString(), '1', 'total supply is correct')
 
         result = await tazo.balanceOf(accounts[0])
-        assert.equal(result.toString(), accounts[0], 0)
+        assert.equal(result.toString(), '1', 0)
 
         result = await tazo.ownerOf('1')
         assert.equal(result.toString(), accounts[0].toString(), 'owner is correct')
 
-        result = await tazo.tokenOfOwnerByIndex(accounts[0], 0)
         let balanceOf = await tazo.balanceOf(accounts[0])
         let tazoIds = []
         for (let i = 0; i<balanceOf; i++){
+            let id = await tazo.tokenOfOwnerByIndex(accounts[0], i)
             tazoIds.push(id.toString())
         }
         let expected = ['1']
