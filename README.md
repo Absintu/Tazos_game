@@ -15,6 +15,7 @@ If you want to test, deploy contracts or interact with them, first install truff
 ### npm install -g truffle
 ### truffle compile
 Install ganache from their website: https://www.trufflesuite.com/ganache and start the client
+make a .secret file wich contains your 12 word mnemonic and paste it on the project root folder
 ### truffle migrate
 
 If you want to test the contracts just run:
