@@ -2,14 +2,14 @@
 Contracts inherited from @openzeppelin<br>
 
 ### If you don't have npm installed please install NodeJS 12 from https://nodejs.org/en/<br>
-## then open the terminal and install yarn with the command:<br>
+### then open the terminal and install yarn with the command:<br>
 
 'npm install -g yarn git'
 'cd your_dev_apps_dir'
 'git clone 'https://github.com/Absintu/Tazos_game/'
 'cd Tazos_game'
 
-#" *** (Optional) If you just want to test the frontend skip this part<br>
+### (Optional) If you just want to test the frontend skip this part<br>
 If you want to test, deploy contracts or interact with them, first install truffle:<br>
 'yarn'
 'npm install -g truffle'
@@ -25,9 +25,9 @@ Et voilá: now you should have your contracts deployed on yout local blockchain 
 *************************************************************************************
 
 
-# To test the front-end:
+## To test the front-end:
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
